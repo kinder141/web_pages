@@ -1,0 +1,507 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  line-height: 22px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+h1, h2, h3, h4, h5 {
+  display: block;
+  font-family: 'Cabin', sans-serif;
+  line-height: 1.1em;
+  color: #000;
+  margin: 0 0 15px; }
+
+h1 {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 30px; }
+
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px; }
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+h4 {
+  font-size: 18px; }
+
+h5 {
+  font-size: 16px; }
+
+p {
+  margin: 0 0 20px;
+  padding: 0; }
+
+ul {
+  padding: 0;
+  margin: 0; }
+  ul li {
+    margin: 0 0 10px; }
+
+a {
+  color: #5d83ab;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: underline;
+    color: #496a8c; }
+
+img {
+  vertical-align: middle;
+  max-width: 100%; }
+
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button {
+  display: block;
+  font-size: 13px;
+  padding: 8px 15px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3px;
+  text-align: center;
+  display: inline-block;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.container {
+  min-width: 320px;
+  max-width: 1040px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 30px 0 50px 0;
+  background-color: #9b9a95;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.logo {
+  float: left;
+  margin: 5px;
+}
+
+.logo img {
+  width: 160px;
+}
+
+.head-menu {
+  position: relative;
+  float: right;
+  margin-bottom: 50px;
+}
+
+.menu-open .menu-icon {
+    position: fixed;
+    left: auto;
+    z-index: 101;
+}
+
+.menu-open .menu-open-wrap {
+  left: 0;
+  display: none;
+}
+
+.menu-open-wrap {
+    left: -100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px 20px;
+    margin-bottom: 0px;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  width: 30px;
+  cursor: pointer;
+  display: block;
+}
+
+.menu-icon span {
+  display: block;
+  height: 4px;
+  background-color: #585754;
+  margin-bottom: 3px;
+  border-radius: 1px;
+}
+
+.head-nav {
+  display: none;
+  list-style-type: none;
+}
+
+.head-nav li {
+  text-transform: uppercase;
+}
+
+.head-nav li a {
+  display: block;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.head-nav li a:hover {
+  text-decoration: none;
+  color: #9b9a95;
+}
+
+.head-info .button {
+  background-color: #4ecb8c;
+}
+
+.head-info p {
+  margin-bottom: 30px;
+  color: #c9c9c7;
+}
+
+.service {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.service h2 {
+  margin-bottom: 60px;
+}
+
+.inner-service-bl span  {
+  position: relative;
+  padding: 25px;
+  background-color: #36c36e;
+  display: block;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: -25px auto 15px;
+}
+
+.icon-service {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -12px 0 0 -12px;
+}
+
+.icon-man {
+  background: url(../img/sprite.png) no-repeat -5px -41px;
+}
+
+.icon-flag {
+  background: url(../img/sprite.png) no-repeat -5px -5px;
+}
+
+.icon-pancel {
+  background: url(../img/sprite.png) no-repeat -41px -5px;
+}
+
+.inner-service-bl {
+  border: 1px solid #f2f2f2;
+  margin-bottom: 40px;
+  padding: 0 5px;
+}
+
+.inner-service-wrap {
+  margin-bottom: 40px;
+}
+
+.our-story {
+  background-color: #e9ebea;
+  padding: 30px 0;
+}
+
+.our-story .button {
+  color: #000;
+  border: 1px solid #000;
+}
+
+.our-clients {
+  padding: 30px 0;
+}
+
+.comments-bl {
+  margin-bottom: 30px;
+}
+
+.border-text {
+  border: 1px solid #dedede;
+  padding: 10px;
+}
+
+.comments-info-wrap {
+  float: right;
+  position: relative;
+}
+
+.icon-comments-man {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background-color: #989898;
+  border-radius: 50%;
+}
+
+.comments-name {
+  display: block;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.comments-info-wrap span {
+  margin-right: 50px;
+}
+
+.stats-wrap {
+  background-color: #353535;
+  color: #fff;
+  padding: 30px 0; 
+}
+
+.stats-wrap h2 {
+  color: #fff;
+}
+
+.our-experience {
+  margin-bottom: 30px;
+}
+
+.our-experience .button {
+  border: 1px solid #fff;
+}
+
+.blog {
+  padding: 30px 0;
+}
+
+.blog img {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.date, .blog-comments {
+  color: #999999;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.blog-comments {
+  margin-left: 30px;
+  padding-left: 25px;
+}
+
+.icon-calendar, .icon-blog-comments {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 18px;
+  height: 16px;
+  margin-top: -8px;
+}
+
+.icon-calendar {
+  background: url(../img/sprite.png) no-repeat -41px -37px;
+}
+.icon-blog-comments {
+   background: url(../img/sprite.png) no-repeat -74px -5px;
+}
+
+.your-project {
+  background-color: #36c36e;
+  padding: 30px 0;
+  color: #fff;
+}
+
+.project-info span {
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.project-bt .button {
+  border: 1px solid #fff;
+}
+
+.footer {
+  background-color: #232323;
+  padding: 30px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+}
+
+.footer-title {
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+.footer-number {
+  display: block;
+}
+
+.footer-contacts {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+/*@media*/
+
+@media screen and (min-width: 480px) {
+  .blog img { margin: 0 auto 20px; }
+}
+
+@media screen and (min-width: 640px) {
+  body { font-size: 16px; }
+  .logo img {width: 190px;}
+  .menu-open .menu-open-wrap {
+    padding: 0;
+    position: relative;
+    display: block;
+    background: none;
+  }
+  .head-nav {display: block;}
+  .head-nav li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  .head-nav li a {
+     font-size: 14px;
+     margin: 0;
+  } 
+  .head-nav li a:hover {color: #282928;}
+  .menu-icon { display: none; }
+  h1 { font-size: 30px; }
+  .head-info p { font-size: 16px; }
+  .inner-service-bl { 
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+   }
+   .comments-name { font-size: 18px; }
+   .comments-bl {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 2%;
+   }
+   .our-experience, .skills {
+    display: inline-block;
+    width: 42%;
+    margin: 0 2%;
+    vertical-align: top;
+   }
+   .blog-info {
+    display: inline-block;
+    vertical-align: top;
+    width: 31%;
+    margin: 0 1%;
+   }
+   .blog-comments, .date { font-size: 12px;}
+
+   .blog-comments {
+    padding-left: 22px;
+    margin-left: 5px;
+   }
+   .project-info {
+    float: left;
+    max-width: 430px;
+   }
+   .project-info span { font-size: 20px; }
+   .project-bt {
+    float: right;
+    margin-top: 10px;
+   }
+   .footer { font-size: 14px; text-align: left; }
+   .footer-title {font-size: 16px;}
+   .footer-contacts, .footer-logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin: 0 2%;
+   }
+   .footer-logo { margin-top: 50px; }
+}
+
+@media screen and (min-width: 768px) {
+  h1 { font-size: 40px;}
+  h2 { font-size: 30px; font-weight: normal; }
+  .service h2 { margin-bottom: 80px; }
+  .head-info { max-width: 640px; padding: 0 10px; }
+  .head-info p { font-size: 18px; margin-bottom: 40px;}
+  .head-menu {margin-bottom: 120px;}
+  .header {min-height: 600px;}
+  .head-nav li { margin-left: 15px; }
+  .inner-service-bl { font-size: 14px; }
+  .our-story { padding: 60px 0; }
+  .our-clients {padding: 100px 0;}
+  .stats-wrap {padding: 80px 0;}
+  .blog-comments, .date { font-size: 14px;}
+   .blog-comments {
+    padding-left: 22px;
+    margin-left: 15px;
+   }
+   .blog {padding: 80px 0;}
+   .project-info { max-width: 600px; }
+   .your-project {padding: 40px 0;}
+}
+
+@media screen and (min-width: 980px) {
+  h1 { font-size: 60px; line-height: 60px; font-weight: normal; margin-bottom: 40px;}
+  h2 { font-size: 40px;}
+  .head-info p { font-size: 20px; line-height: 26px; margin-bottom: 70px; }
+  .head-info { max-width: 700px;}
+  .button {font-size: 16px; padding: 10px 25px;}
+  .header {min-height: 700px;}
+  .inner-service-bl { font-size: 16px; }
+  .inner-service-wrap { margin-bottom: 80px; }
+   .blog-comments { margin-left: 20px;}
+}
+
+@media screen and (min-width: 1170px) {
+
+}
