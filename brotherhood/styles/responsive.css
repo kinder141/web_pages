@@ -1,0 +1,278 @@
+@media only screen and (min-width : 240px) and (max-width : 700px) {
+	#head_wrap{
+		width: 320px;
+	}
+	.hamburger{
+		display: block;
+  background:none;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+	display: block;
+	float: left;
+  background:none;
+  padding:7px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  line-height:45px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.burg_menu{display: block;z-index:1000000; font-family: Century Gothic;font-weight:bold; font-size:14px; width:100%;text-align:center; }
+.burg_menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.burg_menu li {display: block;   padding:15px 0 15px 0;}
+.burg_menu li:hover{display: block;    background:#fbc620; padding:15px 0 15px 0; }
+/* .menu ul li a { text-decoration:none;  margin: 0px; color:white;} */
+.burg_menu ul li a:hover {  color: #fbc620; text-decoration:none;}
+.burg_menu a{text-decoration:none; color:white;}
+.burg_menu a:hover{text-decoration:none; color:black;}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+
+a{color:#336699;}
+		.logo img{
+		width: 320px;
+	}
+	.logo{
+		float: none;
+		margin-right: 0;
+	}
+	.change_language {
+    width: 170px;
+    margin: 15px auto;
+    float: none;}
+    
+    .bucket {
+        margin: 30px auto;
+    /* float: right; */
+    width: 149px;
+    position: relative;
+    float: none;
+	}
+	.equip_list {
+    width: 300px;
+    margin: 0 auto;
+	}
+	.equip_list li {
+    margin-right: 5px;
+    padding: 0;	
+	}
+	.head_list{
+		display: none;
+	}
+	.tactical_wrap{
+		width: 320px;
+		margin: 0 auto;	
+	}
+	.example{
+		display: none;	
+	}
+	.tactical{
+		padding-bottom: 30px;	
+	}
+	.tactical .content{
+		width: 320px;	
+	}
+	.cloth h1 {
+    	padding-top: 30px;
+	}
+	.cloth_wrap{
+		width: 320px;
+		    padding-bottom: 20px;
+	}
+	.cloth p {
+	    margin-top: 40px;
+	    color: white;
+	    font: 28px Century Gothic;
+	}
+	.cloth .cloth_text {
+	    font: 14px OpenSans,sans-serif;
+	    color: white;
+	}
+	.cloth .cloth_advantages span {
+    	font: 15px Century Gothic;
+	}
+	
+	.main .work_back,.test_back,.create_items_back {
+		background: none ;
+	}
+	.create_items_wrap{
+		width: 320px;
+	}
+	.work_wrap {
+    width: 320px;
+    
+	}
+	.test_wrap{
+		max-width: 320px
+	}
+	.idea p{
+		padding: 0;	
+	}
+	.work .idea {
+    margin-top: 40px;
+    text-align: center;
+    /* float: right; */
+	}
+	.idea,.idea2,.idea3 {
+	padding: 0;
+	text-align: center;
+	margin-top:0;
+	}
+	.work .work_back {
+		margin-top: 30px;
+        background: none ;    
+	}
+	.idea ul {
+    width: 273px;
+	}
+	.work li:after {
+    top: 0;
+    }
+    .work .idea p {
+    	padding: 0;
+    }
+    .footer_wrap {
+    width: 320px;
+    
+	}
+	.footer_wrap .contacts {
+		margin: 0;
+	}
+	.footer_wrap .numbers {
+	margin: 22px 0;
+	}
+	.footer_wrap>img {
+		width: 320px;
+	}
+}
+    @media only screen and (min-width : 700px) and (max-width : 900px) {
+	#head_wrap{
+		width: 480px;
+	}
+    .logo img{
+		width: 480px;
+	}
+	.logo{
+		float: none;
+		margin-right: 0;
+	}
+	.change_language {
+    width: 170px;
+    margin: 15px auto;
+    float: none;}
+    .bucket {
+    margin: 50px 162px 0 0;
+    }
+    .head_list li a {
+    padding: 0 39px;
+    }
+        .equip_list{
+            width: 400px;
+        }
+    .equip_list li {
+    padding: 0 20px;
+}
+    .tactical .content{
+    float: none;
+    padding-top: 60px;
+    margin: 0 auto;    
+    }
+    .main .tactical .example{
+    float: none;
+    background-size: cover;
+    min-height: 434px;
+    width: 100%;
+        }
+
+        .work .work_back {
+                margin-top: 85px;
+    background-size: contain;
+        }
+    .idea {
+    margin-top: 140px;
+    width: 285px;
+    
+}
+        .idea p {
+    padding-right: 38px;
+    font: 28px Century Gothic;
+    
+}
+        .idea ul {
+   
+    width: 238px;
+}
+        .idea li {
+    font: 14px OpenSans,sans-serif;
+   
+}
+    .create_items_back{
+        
+        background-size:contain ;
+    }
+    .create_items_back .idea2{
+    margin-top: 0px;
+        padding-top: 200px;
+        margin-left: 10px;
+    }
+        .test_back{
+            background-size: contain;
+        }
+        .test_back .idea3{
+        margin-top: 200px;
+            margin-right: 10px;
+}
+.footer_wrap {
+    max-width: 616px;
+        }
+        .footer_wrap>img {
+    
+     float: none; 
+    margin: 0 auto;
+}
+}
+@media only screen and (min-width : 901px) and (max-width : 1100px) {
+    .main .tactical .example {
+    background-size: contain;
+        min-height: 464px;
+    width: 516px;
+}
+    .work .work_back,.create_items_back,.test_back {
+       background-size: contain;
+    }
+    .idea {
+        margin-top: 210px;}
+    .create_items_back .idea2{
+        padding-top: 245px;
+    }
+    .test_back .idea3{
+        margin-top: 245px;
+    }
+    .tactical .content{
+        margin-left: 5px;
+    }
+    .idea p {
+    padding-right: 104px;
+    }
+    .idea ul {
+    
+    width: 320px;
+}
+}

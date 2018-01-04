@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/responsive.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCga_l_iALZ_YMsTzTE_z4qzVqcoZapB_I&callback=initMap"
+    async defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script>
+  	$( document ).ready(function() {
+	$( ".cross" ).hide();
+	$( ".burg_menu" ).hide();
+	$( ".hamburger" ).click(function() {
+	$( ".burg_menu" ).slideToggle( "slow", function() {
+	$( ".hamburger" ).hide();
+	$( ".cross" ).show();
+	});
+	});
+
+	$( ".cross" ).click(function() {
+	$( ".burg_menu" ).slideToggle( "slow", function() {
+	$( ".cross" ).hide();
+	$( ".hamburger" ).show();
+	});
+	});
+	});
+  </script>
+</head>
+<body>
+	<header>
+	<div id="head_wrap">
+			<div class="clearfix">
+				<div class="logo">
+					<a href="">
+					<img src="images/logo.png" alt="">
+					</a>
+				</div>
+				<ul class="change_language clearfix">
+					<li>
+						<a href="">Рус</a>
+					</li>
+					<li>
+						<a href="">Укр</a>
+					</li>
+					<li>
+						<a href="">Eng</a>
+					</li>
+				</ul>
+				<div class="bucket">
+					<span><b>Кошик:</b></span>
+					<span>27 товаров</span>
+				</div>
+				</div>
+				<ul class="head_list clearfix">
+					<li><a href="">НОВИНИ</a></li>
+					<li><a href="">МАГАЗИН</a></li>
+					<li><a href="">ДИЛЕРИ</a></li>
+					<li><a href="">ДОСТАВКА</a></li>
+					<li><a href="">ПРО НАС</a></li>
+					<li><a href="">КОНТАКТИ</a></li>
+				</ul>
+				 <button class="hamburger">&#9776;</button>
+  				<button class="cross">&#735;</button>
+				  <div class="burg_menu">
+				  <ul>
+				    <a href="#"><li>LINK ONE</li></a>
+				    <a href="#"><li>LINK TWO</li></a>
+				    <a href="#"><li>LINK THREE</li></a>
+				    <a href="#"><li>LINK FOUR</li></a>
+				    <a href="#"><li>LINK FIVE</li></a>
+				  </ul>
+				</div> 
+			    <ul class="equip_list clearfix">
+			   	<li><a href="#">Tactical</a></li>
+			   	<li><a href="#" class="link_blue">Highland</a></li>
+			   	<li><a href="#" class="link_gray">Simple</a></li>
+			   </ul>
+			    
+			</div>
+	</header>
+	<div class="main">
+		<div class="tactical">
+			<div class="tactical_wrap clearfix">	
+			<div class="content">
+				<p>
+				<span>Серія<br></span>
+				<span>Tactical</span>
+				</p>
+				<p class="ppp"><b>Власна розробка</b> українських військових, що увібрала в себе <b>найкраще</b> з нині можливого:</p>
+				<ul>
+					<li>якість тканин і пошиву</li>
+					<li>зручність крою</li>
+					<li>функціональність у використанні</li>
+				</ul>
+				<a href="">Перейти до каталогу</a>
+			</div>
+			<div class="example">
+<!--
+					<div class="circle">
+  					<div class="vline"></div>
+    				<div class="gline"></div>
+    				<div class="subcircle"></div>
+-->
+   					</div>
+			</div>
+			</div>
+		</div>
+		<div class="cloth">
+			<div class="cloth_wrap">
+				<h1>
+					Тканина
+				</h1>
+				<p><span>Тип тканини:</span><span>Кордура</span></p>
+				<p class="cloth_text">Тканина кордура - нейлонова водонепроникна тканина з підвищеною стійкістю до будь механічних впливів. PU просочення і особливе плетіння ниток забезпечують повну водоніпроніцаемость. Тканина стійка до перепадів температур і впливу ультрафіолету.</p>
+				<p class="cloth_advantages">
+				<span>Переваги:</span>
+				<span style="color:white; font-weight: normal;">вологостійкість, вогнестійкість</span></p>
+				<p style="font-size: 20px;color:#fbc620">Доступні кольори:</p>
+				<ul class="clearfix">
+					<li><img src="images/1.png" alt=""></li>
+					<li><img src="images/2.png" alt=""></li>
+					<li><img src="images/3.png" alt=""></li>
+					<li><img src="images/4.png" alt=""></li>
+					<li><img src="images/5.png" alt=""></li>
+					<li><img src="images/6.png" alt=""></li>
+				</ul>
+				<a href="">Перейти до каталогу</a>
+			</div>
+		</div>
+		<div class="work">
+			<div class="work_wrap">
+				<h1 style="color:black;padding-top: 59px;">ЯК МИ ПРАЦЮМО</h1>
+				<div class="work_back clearfix">
+					<div class="idea">
+   					<p><span>СПОЧАТКУ </span><span style="color: #fbc620;">IДЕЯ</span></p>
+   					<ul>
+   						<li>Усі моделі розробляються українськими  військовими, тому моделі досконалі та зручні</li>
+   						<li>Кожен елемент моделі знаходиться на своєму функціональному місці, для нього підібраний найкращий крій та матеріали, використовується найдосконаліша фурнітура</li>
+   						<li>Ідея постійно вдосконалюється, враховуються всі помилки, завдяки налагодженому діалогу з реальними користувачами форми</li>
+   					</ul>
+   					</div>
+				</div>
+			</div>
+		</div>
+		<div class="create_items">
+			<div class="create_items_wrap">
+				<div class="create_items_back  clearfix">
+					<div class="idea idea2" >
+   					<p><span>СПОЧАТКУ </span><span style="color: #fbc620;">IДЕЯ</span></p>
+   					<ul>
+   						<li>Усі моделі розробляються українськими  військовими, тому моделі досконалі та зручні</li>
+   						<li>Кожен елемент моделі знаходиться на своєму функціональному місці, для нього підібраний найкращий крій та матеріали, використовується найдосконаліша фурнітура</li>
+   						<li>Ідея постійно вдосконалюється, враховуються всі помилки, завдяки налагодженому діалогу з реальними користувачами форми</li>
+   					</ul>
+   					</div>
+				</div>
+			</div>
+		</div>
+		<div class="test">
+			<div class="test_wrap">
+				<div class="test_back clearfix">
+					<div class="idea idea3">
+   					<p><span>СПОЧАТКУ </span><span style="color: #fbc620;">IДЕЯ</span></p>
+   					<ul>
+   						<li>Усі моделі розробляються українськими  військовими, тому моделі досконалі та зручні</li>
+   						<li>Кожен елемент моделі знаходиться на своєму функціональному місці, для нього підібраний найкращий крій та матеріали, використовується найдосконаліша фурнітура</li>
+   						<li>Ідея постійно вдосконалюється, враховуються всі помилки, завдяки налагодженому діалогу з реальними користувачами форми</li>
+   					</ul>
+   					</div>
+				</div>
+			</div>
+		</div>
+		<div class="dilers">
+			<h1>НАШІ ДИЛЕРИ</h1>
+			<div id="map" style="width: 100%;height: 550px;"></div>
+				<script>
+					var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 50.174351, lng: 30.693251},
+          zoom: 6,
+           styles:[{"elementType":"geometry","stylers":[{"color":"#212121"}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"elementType":"labels.text.stroke","stylers":[{"color":"#212121"}]},{"featureType":"administrative","elementType":"geometry","stylers":[{"color":"#757575"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"on"}]},{"featureType":"administrative.country","elementType":"labels.text.fill","stylers":[{"color":"#9e9e9e"}]},{"featureType":"administrative.land_parcel","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","stylers":[{"visibility":"on"}]},{"featureType":"administrative.locality","elementType":"labels.text.fill","stylers":[{"color":"#bdbdbd"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#181818"}]},{"featureType":"poi.park","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"poi.park","elementType":"labels.text.stroke","stylers":[{"color":"#1b1b1b"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"color":"#2c2c2c"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#8a8a8a"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#373737"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#3c3c3c"}]},{"featureType":"road.highway.controlled_access","elementType":"geometry","stylers":[{"color":"#4e4e4e"}]},{"featureType":"road.local","elementType":"labels.text.fill","stylers":[{"color":"#616161"}]},{"featureType":"transit","elementType":"labels.text.fill","stylers":[{"color":"#757575"}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"color":"#3d3d3d"}]}]
+        });
+
+      }
+				</script>
+			
+		</div>
+	<footer>
+		<div class="footer_wrap clearfix">
+			<img src="images/logo.png" alt="">
+			<div class="contacts">
+			<ul class="mail clearfix">
+					<li><a href="">sales@brother-hood.com.ua</a></li>
+					<li><a href="" style="color:white;">Замовити зворотнiй дзвiнок</a></li>
+				</ul>
+			<p>ст. м “Либідська” <br><span style="color:#fbc620">м. Київ, вул. К. Малевича, 86 І</span></p>
+			<ul class="numbers">
+				<li><span>+38 (050)</span><span style=" "> 317-64-44</span></li>
+				<li><span>+38 (067) </span><span style=" ">325-57-53</span></li>
+			</ul>
+			</div>
+		</div>
+	</footer>
+
+	</div>
+</body>

@@ -1,0 +1,432 @@
+/*   
+Theme Name: Brotherhood
+Theme URI: wp-testpage
+Description: Первая натяжка
+Author: Vlad
+Author URI: ваш-URI
+Version: 1.0
+
+.
+*/
+@import 'reset.css';
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+h1{
+	font-family:Century Gothic;
+	font-size: 44px;
+	color: white;
+	font-weight: bold;	
+	text-align: center;
+	display: block;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.hamburger{
+	display: none;
+}
+.cross{
+	display: none;
+}
+.burg_menu{
+	display: none;
+}
+#head_wrap{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+header{
+	background: #000;
+	width: 100%;
+	padding-top: 15px;
+	
+}
+.logo{
+float: left;
+margin-right: 175px;
+
+}
+.change_language{
+	float: left;
+	width: 170px;
+	margin-right:200px;
+	font: 16px Century Gothic;
+
+}
+.bucket{
+	margin:50px 80px 0 0;
+	float: right;
+	position: relative;
+	
+}
+.bucket span{
+	color:#fbc620;
+	font: 14px Century Gothic;
+	
+}
+.bucket span:first-child:before{
+	content: '';
+	position: absolute;
+	background-image: url('../images/bucket.gif');
+	width: 37px;
+	height: 37px;
+	left: -47px;
+	top: -50%;
+}
+.change_language a{
+	font-family:Century Gothic;
+	color: white;
+	text-decoration: none;
+	
+}
+b{
+	font-weight: bold;
+}
+.change_language li{
+margin-right: 38px;	
+float: left;
+}
+.change_language li:last-child{
+	margin-right: 0;
+}
+.change_language a:hover{
+	color:#fbc620;
+}
+.head_list{
+	width: 100%;
+    margin-top: 15px;
+}
+.head_list li{
+
+background: #000;
+text-align: center;
+float: left;
+}
+.head_list li a{
+	font-family: Century Gothic;
+	padding: 0 54px;
+    line-height: 57px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.head_list a:hover{
+	background: #fbc620;
+	color: black;
+}
+
+.equip_list{
+width: 500px;
+margin: 0 auto;
+}
+.equip_list li{
+	float: left;
+	padding: 0 19px;
+}
+.equip_list .link_blue{
+	color: #3f8db9;
+	border: 1px solid #0c1b24;
+	border-bottom: none;
+}
+.equip_list .link_blue:active{
+	border: 1px solid #3f8db9;
+	border-bottom: none;
+
+}
+.equip_list .link_gray{
+	color: #696969;
+	border: 1px solid #151515;
+	border-bottom: none;
+}
+.equip_list .link_gray:active{
+	border: 1px solid #696969;
+	border-bottom: none;
+}
+.equip_list a{
+	color: #fbc620;
+	font-family: Century Gothic;
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 39px;
+    display: block;
+    border: 1px solid #3b2f09;
+    border-bottom: none;
+}
+.equip_list a:active{
+	border: 1px solid #fbc620;
+	border-bottom: none;
+}
+/*            End header                            */
+ .tactical{
+	background: url('../images/back_tactical.jpg') 0 0 no-repeat;
+	background-size: cover ;
+	width: 100%;
+}
+.tactical_wrap{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.tactical .content{
+	width: 380px;
+	float: left;
+	margin-top:60px;
+}
+.tactical .content p span:first-child{
+	font-family: Century Gothic;
+	color: white;
+	font-size: 34px;
+}
+.tactical .content p span:last-child{
+	font-family: Century Gothic;
+	line-height: 64px;
+	color: black;
+	font-size:44px;
+	font-weight: bold;
+}
+
+.ppp{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin-top: 19px;
+}
+.tactical .content ul{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	margin:45px 0 0 60px;
+
+}
+.create_items .back{
+	background: url('../images/test.png') no-repeat;
+	width: 1140px;
+	height: 748px;
+}
+.tactical .content li{
+	margin-bottom: 34px;
+	position: relative;
+}
+.tactical .content li:after{
+content: '';
+position: absolute;
+width: 38px;
+height: 39px;
+background-image: url('../images/check.gif');
+top: -100%;
+left: -58px;
+}
+.tactical .content a{
+	text-decoration: none;
+	display: block;
+	height:28px;
+	background:  url('../images/arrow.png') no-repeat;
+	font-family:Century Gothic;
+	font-size: 14px;
+	color: black;
+}
+.main .tactical .example{
+	background: url('../images/soldiers1.png') no-repeat;
+	float:left;
+	min-height: 686px;
+    width: 762px;
+}
+
+.cloth{
+	background: #000;
+	padding-bottom: 60px;
+	
+}
+.cloth_wrap{
+	max-width: 945px;
+	margin: 0 auto;
+}
+.cloth h1{
+	padding-top: 60px;
+}
+.cloth p{
+	margin-top: 40px;
+	color: white;
+	font:34px Century Gothic ;
+}
+.cloth p span:last-child{
+	color:#fbc620;
+	font-weight: bold;
+}
+.cloth .cloth_text{
+	font:18px OpenSans,sans-serif ;
+	color: white;
+}
+.cloth .cloth_advantages span{
+	color: #fbc620;
+	font: 20px Century Gothic;
+}
+.cloth ul{
+	margin-top: 20px;
+}
+.cloth ul li{
+	float: left;
+	margin-right: 10px;
+}
+.cloth a{
+	margin-top: 54px;
+	text-decoration: none;
+	display: block;
+	height:28px;
+	background:  url('../images/arrowy.png') no-repeat;
+	font-family:Century Gothic;
+	font-size: 14px;
+	color:#fbc620;
+}
+.work{
+	width: 100%;
+}
+.work_wrap{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.work .work_back {
+    background: url('../images/test1.png') no-repeat;
+    margin-top: 85px;
+    padding-bottom: 87px;
+}
+.idea{
+margin-top: 249px;
+float: right;
+}
+.idea p{
+	padding-right: 170px;
+	font: 34px Century Gothic;
+	color: black;
+}
+ .idea ul{
+	margin-left: 48px;
+	margin-top: 80px;
+	width: 360px;
+}
+.idea li{
+	font: 16px OpenSans,sans-serif ;
+	margin-bottom: 37px;
+	position: relative;
+}
+.idea li:last-child{
+	margin-bottom: 0;
+}
+.idea li:after{
+content: '';
+position: absolute;
+width: 38px;
+height: 39px;
+background-image: url('../images/checky.gif');
+top: -25%;
+left: -48px;
+}
+.create_items{
+	background: #f2f2f2;
+}
+.create_items_wrap{
+	max-width: 1170px;
+	margin: 0 auto;
+	    padding-top: 100px;
+}
+.create_items_back{
+	 background: url('../images/test.png') no-repeat;
+     padding-bottom: 87px;
+}
+.idea2{
+	    float: none;
+    margin-top: 0;
+    padding-top: 320px;
+}
+.test_wrap{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.test_back{
+	background: url('../images/test3.png') no-repeat;
+     padding-bottom: 87px;
+}
+.idea3{
+	margin-top: 320px;
+}
+
+.dilers{
+	background: #1e1e1e;
+}
+.dilers h1{
+	padding-top: 60px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+footer{
+	background: #080908;
+	font: 16px Century Gothic;
+	color: white;
+	padding-bottom: 30px;
+}
+ .footer_wrap{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.footer_wrap>img{
+	display: block;
+	float: left;
+	padding-top: 51px;
+}
+.footer_wrap .contacts{
+	float: right;
+	
+	padding-top: 37px;
+}
+.footer_wrap .contacts .mail{
+	margin-left: 45px;
+}
+.footer_wrap .contacts .mail li{
+	float: left;
+	margin-right: 132px;
+}
+.footer_wrap .contacts .mail li:last-child{
+	margin-right: 0;
+}
+.footer_wrap .contacts .mail li a{
+	text-decoration: none;
+	color: #fbc620;
+	position: relative;
+	display: block;
+	line-height: 35px;
+}
+.footer_wrap .contacts .mail li:first-child a:before{
+	position: absolute;
+	content: '';
+	width: 37px;
+	top: 0;
+	left: -47px;
+	height: 37px;
+	background-image: url('../images/mail.png');
+}
+.footer_wrap .contacts .mail li:last-child a:before{
+	position: absolute;
+	content: '';
+	width: 37px;
+	top: 0;
+	left: -47px;
+	height: 37px;
+	background-image: url('../images/call.png');
+}
+.footer_wrap p{
+	float: left;
+	margin-top: 62px;
+}
+.footer_wrap .numbers{
+    font: 24px Century Gothic;
+    float: left;
+    margin-left: 110px;
+    margin-top: 22px;
+}
+.numbers li span:last-child{
+	font-size: 34px; color:#fbc620;font-weight: bold;
+}
