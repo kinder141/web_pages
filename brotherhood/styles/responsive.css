@@ -86,6 +86,9 @@ a{color:#336699;}
 	.tactical{
 		padding-bottom: 30px;	
 	}
+	.tactical .content li:after{
+		top:30%;
+	}
 	.tactical .content{
 		width: 320px;	
 	}
