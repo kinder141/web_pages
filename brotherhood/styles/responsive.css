@@ -17,7 +17,7 @@
 }
 .cross{
 	display: block;
-	float: left;
+	/*float: left;*/
   background:none;
   padding:7px 15px 0px 15px;
   color:#999;
